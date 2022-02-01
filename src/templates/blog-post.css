@@ -1,0 +1,8 @@
+.blog-post {
+    padding: 10px 10px 10px 30px;
+    background-color: #e5ded8;
+    height: 100vh;
+}
+.blog-post a {
+    color: #1f4a6f;
+}

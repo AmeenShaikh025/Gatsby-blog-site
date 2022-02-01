@@ -3,7 +3,7 @@ import React from 'react'
 
 const Menu = () => (
         <div style={{
-            background: '#f4f4f4',
+            background: '#e5ebea',
             paddingTop: '10px',
         }}>
         
@@ -11,6 +11,7 @@ const Menu = () => (
             listStyle: 'none',
             display: 'flex',
             justifyContent: 'space-evenly',
+            marginBottom: 0,
         }}>
             <li>
                 <Link to="/" >Home</Link>
