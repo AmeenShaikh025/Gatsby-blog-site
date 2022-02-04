@@ -5,4 +5,4 @@ title: "My Second Gatsby post"
 author: "John Doe"
 ---
 
-This is my very **second** blog post in Gatsby
+This is my very second blog post in Gatsby

@@ -16,7 +16,7 @@ const blogPage = ({data}) => (
                     <small className="">
                         Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}
                     </small>
-                    <div>
+                    <div className="blog-details-btn">
                         <Link to={post.node.frontmatter.path}>Read More</Link>
                     </div>
                 </div>

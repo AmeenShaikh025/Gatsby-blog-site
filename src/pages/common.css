@@ -6,7 +6,7 @@
   width: 100%;
   color: white;
   background-color: #1f4a6f;
-  font-family: "ubuntu";
+  font-family: "ubuntu", sans-serif;
   overflow: hidden;
 }
 #title-image {
@@ -32,7 +32,7 @@
 }
 .blog h1 {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0 10px 0;
 }
 .blog .blog-container {
     background: #fff;
@@ -46,8 +46,12 @@
     padding: 1rem 1.5rem;
     margin-bottom: 5px;
 }
+.blog .blog-container .blog-details-btn {
+padding-top: 10px;
+}
 .blog .blog-container a {
     color: #1f4a6f;
+    text-decoration: underline;
 }
 @media screen and (min-width: 480px) {
     .blog .blog-container {

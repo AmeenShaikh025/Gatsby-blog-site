@@ -5,4 +5,4 @@ title: "My first Gatsby post"
 author: "Ameen Shaikh"
 ---
 
-This is my very **first** blog post in Gatsby
+This is my very first blog post in Gatsby

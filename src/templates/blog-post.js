@@ -12,7 +12,7 @@ export default function Template ({data}) {
             <h1>
                 {post.frontmatter.title}
             </h1>
-            <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
+            <h4>posted by <strong>{post.frontmatter.author}</strong> on <small>{post.frontmatter.date}</small></h4>
             <div dangerouslySetInnerHTML={{__html: post.html}}></div>
         </div>
     )
